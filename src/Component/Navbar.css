@@ -1,0 +1,25 @@
+.flexen{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 1%;
+}
+.icon{
+    width: 20px;
+}
+.flexen button{
+    padding: 0.5em 1.5em;
+    background-color: blue;
+    border-radius: 5px;
+    border: 1px solid blue;
+    color: white;
+}
+.flexen button:hover{
+    background-color: rgb(120, 120, 214);
+    cursor:pointer;
+    border: 1px solid rgb(120, 120, 214);
+}
+a{
+    text-decoration: none;
+    color: black;
+}

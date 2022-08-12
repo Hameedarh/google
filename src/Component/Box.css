@@ -1,0 +1,58 @@
+.flexen1{
+    display: flex;
+    justify-content: flex-end;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.back{
+    background-color: whitesmoke;
+    width: 23%;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+.flex{
+    display: flex;
+    gap: 1em;
+}
+.line{
+    border-left: 1px solid gray;
+    margin-right: 0.5em;
+}
+.bod{
+    margin-left: 0.5em;
+}
+.bod h4, p{
+    margin-bottom: 4%;
+}
+.bod h4{
+    margin-top: 3%;
+}
+.down{
+    display: flex;
+    gap: 1em;
+}
+.down h5, .flex h1{
+    display: flex;
+    align-items: center;
+}
+.log{
+    width: 50px;
+    padding-left: 1em;
+}
+.down button{
+    padding: 0.5em 1.5em;
+    background-color: blue;
+    border-radius: 5px;
+    border: 1px solid blue;
+    color: white;
+}
+.down button:hover{
+    background-color: rgb(120, 120, 214);
+    cursor:pointer;
+    border: 1px solid rgb(120, 120, 214);
+}
+
+@media screen and (max-width: 700px){
+    .flexen1{
+        display: none;
+    }
+}
