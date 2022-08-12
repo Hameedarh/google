@@ -30,7 +30,7 @@ ul{
 }
 @media screen and (max-width: 700px){
     .backe{
-        margin-top: 50%;
+        margin-top: 60%;
         position: absolute;
         padding: 3em;
     }
