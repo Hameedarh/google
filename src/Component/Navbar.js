@@ -8,7 +8,7 @@ function Navbar() {
         <a href="www.gmail.com">Gmail</a>
         <a href="www.gmail.com">Images</a>
         <img src={icon} alt="ic" className='icon'/>
-        <button>Signup</button>
+        <button>SignIn</button>
       </div>
     </div>
   )

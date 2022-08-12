@@ -18,7 +18,10 @@ function Middle() {
                 <button>Google search</button>
                 <button>I'm feeling lucky</button>
             </div>
-            <h5>Google offered in: <span className='col'>Hausa Igbo Ede Yoruba Nigerian Pidgin</span></h5>
+            <div className='text'>
+              <p>Google offered in:</p> <p className='col'>Hausa Igbo Ede Yoruba Nigerian Pidgin</p>
+            </div>
+            
         </div>
     </section>
     
